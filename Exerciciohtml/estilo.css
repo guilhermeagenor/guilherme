@@ -1,0 +1,71 @@
+p{
+    
+}
+ul{
+    display: block;
+}
+h2.hidden{
+    display: none;
+}
+a{
+    display: inline;
+}
+.Menu1{
+    display: block;
+}
+.flex-container{
+    display: flex;
+    flex-direction:column;/*Alinhar na coluna, row alinhar linha*/
+    background-color:green;/*Cor de fundo*/
+}
+.flex-container > div{
+  width: 100px;
+  margin: 10px;/*tamanho da borda*/
+  text-align: center;
+  line-height: 75px;/*altura da borda*/
+  font-size: 30px;
+  background-color: red;/*Cor do botão*/
+}
+.flex-container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+}
+.flex-container1 > div{
+
+    width: 100px;
+    margin: 10px;/*tamanho da borda*/
+    text-align: center;
+    line-height: 100px;/*altura da borda*/
+    font-size: 30px;
+    background-color: red;/*Cor do botão*/
+}
+.flex-container2{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: green;
+
+}
+.flex-container2 > div{
+  background-color:red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: green;
+}
+.flex-container3 > div{
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
