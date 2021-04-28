@@ -8,7 +8,7 @@ h2.hidden{
     display: none;
 }
 a{
-    display: inline;
+    display: block;
 }
 .Menu1{
     display: block;
